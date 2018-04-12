@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 // about page
 app.get('/about', (req, res) => {
-    res.send('about');
+    res.render('about');
 });
 
 const port = 5000;
